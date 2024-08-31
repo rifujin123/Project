@@ -90,19 +90,20 @@ a {
 }
 .left {
   width: 40%;
+  padding-left: 60px;
 }
 
 .right {
   width: 60%;
- /* padding-left: 10px;*/
+  padding-right: 60px;
 }
 
-.related-news{
+.related-news {
   list-style-type: none;
   display: flex;
-  }
+}
 
-.related-news li image{
+.related-news li image {
   width: 100%;
 }
 
@@ -111,4 +112,45 @@ a {
 }
 .news {
   display: flex;
+}
+/*footer*/
+footer {
+  float: left;
+  width: 100%;
+  background-color: #1d559d;
+}
+.row {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.boxcenter2 {
+  width: 50%;
+  /*can giua*/
+  margin: 0 auto;
+}
+
+.boxfooter1 {
+  width: 15%;
+  float: left;
+}
+.boxfooter2 {
+  width: 40%;
+  float: left;
+}
+.boxfooter3 {
+  width: 45%;
+  float: left;
+}
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+/*mau sai chung*/
+.colorc {
+  color: white;
+}
+.mrb10 {
+  margin-bottom: 10px;
 }
