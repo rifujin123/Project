@@ -109,14 +109,19 @@ a {
 
 .related-news li image {
   width: 100%;
+  max-with: pixcel;
+  height: auto;
 }
 
 .news img {
   width: 100%;
+  max-with: pixcel;
+  height: auto;
 }
 .news {
   display: flex;
 }
+
 /*footer*/
 footer {
   float: left;
@@ -157,4 +162,13 @@ footer {
 }
 .mrb10 {
   margin-bottom: 10px;
+}
+.log {
+  padding: 0;
+  display: flex;
+}
+.log > li {
+  list-style-type: none;
+  padding-right: 10px;
+  font-size: 20px;
 }
