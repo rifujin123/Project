@@ -19,7 +19,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 0 20px;
-  font-size: 20px;
+  font-size: 100%;
 }
 
 .menu1 {
@@ -90,12 +90,12 @@ a {
 }
 .left {
   width: 40%;
-  padding-left: 60px;
+  padding-left: 20px;
 }
 
 .right {
   width: 60%;
-  padding-right: 60px;
+  padding-right: 20px;
 }
 
 .related-news {
@@ -153,4 +153,14 @@ footer {
 }
 .mrb10 {
   margin-bottom: 10px;
+}
+
+.log{
+  padding: 0px;
+  display: flex;
+}
+
+.log li{
+  list-style-type: none;
+  padding-right: 10px;
 }
