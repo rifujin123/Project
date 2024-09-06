@@ -49,7 +49,7 @@ header .menu2 > li {
   position: absolute;
   list-style: none;
   width: 250px;
-  background-color: rgb(11, 186, 244);
+  background-color: rgb(66, 80, 232);
   padding: 0;
 }
 .dropdown > li > a {
@@ -60,6 +60,10 @@ header .menu2 > li {
 .dropdown > li {
   padding: 10px;
   border-bottom: 1px black solid;
+}
+
+.dropdown > li:hover {
+  background: rgb(2, 2, 159);
 }
 .menu2 > li > ul {
   display: none;
@@ -132,7 +136,7 @@ footer {
 }
 
 .boxfooter1 {
-  width: 15%;
+  width: 20%;
   float: left;
 }
 .boxfooter2 {
@@ -140,7 +144,7 @@ footer {
   float: left;
 }
 .boxfooter3 {
-  width: 45%;
+  width: 40%;
   float: left;
 }
 .copyright {
