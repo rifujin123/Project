@@ -122,6 +122,12 @@ a {
   display: flex;
 }
 
+.related_img {
+  width: 25%;
+}
+.related_img {
+  width: 100%;
+}
 /*footer*/
 footer {
   float: left;
@@ -171,4 +177,25 @@ footer {
   list-style-type: none;
   padding-right: 10px;
   font-size: 20px;
+}
+
+.filtered-news {
+  background: rgb(234, 232, 232);
+}
+
+.filtered-news h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.news-list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.news-list > li > a > img {
+  width: 80%;
+}
+.news-list > li {
 }
