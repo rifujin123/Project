@@ -1,3 +1,25 @@
+/**search */
+document.addEventListener('DOMContentLoaded',function(){
+    const sIcon=document.getElementById('search_icon');
+    const sForm=document.getElementById('search_form');
+
+    sIcon.addEventListener('click',function(){
+        if(sForm.style.display==='block'){
+            sForm.style.display='none';
+        }else{
+            sForm.style.display='block';
+        }
+    });
+
+    document.addEventListener('click',function(event){
+        console.log(event.target);
+        if(event.target !=sIcon && !sForm.contains(event.target)){
+            sForm.style.display='none';
+        }
+    });
+});
+
+/** chuyen slide*/
 let list=document.querySelector('.slider .list');
 let items=document.querySelectorAll('.slider .list .item');
 let dots=document.querySelectorAll('.slider .dots li');
@@ -46,7 +68,7 @@ dots.forEach((li,key)=>{
     })
 })
 
-
+/**Go to top */
 $(window).scroll(function(){
     if($(this).scrollTop() !=0){
         $('#gotopbtn').show();
