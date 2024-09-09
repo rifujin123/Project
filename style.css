@@ -27,6 +27,7 @@ body {
   list-style: none;
   font-weight: bold;
   align-items: center;
+  font-size: 20px;
 }
 header .menu2 > li > a {
   text-decoration: none;
@@ -53,19 +54,21 @@ header .menu2 > li {
   background-color: rgb(66, 80, 232);
   padding: 0;
 }
+
 .dropdown > li > a {
   text-decoration: none;
   font-size: 18px;
   color: white;
+  display: block;
 }
 .dropdown > li {
   padding: 10px;
   border-bottom: 1px black solid;
-
 }
 
 .dropdown > li:hover {
   background: rgb(2, 2, 159);
+  transition: 0.3s ease;
 }
 .menu2 > li > ul {
   display: none;
@@ -83,16 +86,14 @@ header .menu2 > li {
   font-size: 40px;
   border: none;
   padding: 0px;
-  background-color:orange;
+  background-color: orange;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.gotopbtn:hover{
+.gotopbtn:hover {
   background-color: maroon;
 }
-
-
 
 .news {
   padding: 0;
@@ -213,10 +214,9 @@ footer {
   width: 25%;
   padding: 0px 5px;
 }
-
 /*slide chuyển*/
 
-.slider{
+.slider {
   width: 1300px;
   max-width: 100vm;
   height: 600px;
@@ -225,35 +225,36 @@ footer {
   overflow: hidden;
   justify-content: center;
   z-index: 1;
+  border: 10px rgb(175, 173, 173) solid;
 }
 
-.list{
+.list {
   position: absolute;
   top: 0px;
-  left:0;
+  left: 0;
   height: 100%;
   display: flex;
   width: max-content;
   transition: 1s;
 }
 
-.list img{
+.list img {
   width: 1300px;
   max-width: 100vm;
   height: 100%;
   object-fit: cover;
 }
 
-.buttons{
+.buttons {
   position: absolute;
-  top:45%;
-  left:5%;
+  top: 45%;
+  left: 5%;
   width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
-.buttons button{
+.buttons button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -264,11 +265,11 @@ footer {
   font-weight: bold;
 }
 
-.dots{
+.dots {
   position: absolute;
   bottom: 10px;
   color: white;
-  left:0;
+  left: 0;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -276,7 +277,7 @@ footer {
   justify-content: center;
 }
 
-.dots li{
+.dots li {
   list-style: none;
   width: 10px;
   height: 10px;
@@ -286,6 +287,6 @@ footer {
   transition: 1s;
 }
 
-.dots li.active{
+.dots li.active {
   width: 30px;
 }

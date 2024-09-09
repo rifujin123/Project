@@ -6,11 +6,11 @@
     <title>Đại Học Mở</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style3.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
 
@@ -37,14 +37,14 @@
       <header>
         <ul class="menu2">
           <li>
-            <a href="index2.html">GIỚI THIỆU</a>
+            <a href="#">GIỚI THIỆU</a>
             <ul class="dropdown">
-              <li><a href="index2.html">Tổng quan</a></li>
-              <li><a href="index2.html">Cơ cấu tổ chức</a></li>
-              <li><a href="index2.html">Sứ mạng và tầm nhìn</a></li>
-              <li><a href="index2.html">Ban giám hiệu</a></li>
-              <li><a href="index2.html">Lịch sử và phát triển</a></li>
-              <li><a href="index2.html">Thông tin liên hệ</a></li>
+              <li><a href="#">Tổng quan</a></li>
+              <li><a href="#">Cơ cấu tổ chức</a></li>
+              <li><a href="#">Sứ mạng và tầm nhìn</a></li>
+              <li><a href="#">Ban giám hiệu</a></li>
+              <li><a href="#">Lịch sử và phát triển</a></li>
+              <li><a href="#">Thông tin liên hệ</a></li>
             </ul>
           </li>
           <li>
@@ -123,205 +123,58 @@
     <button id="gotopbtn">
       <i class="fa-solid fa-chevron-up"></i>
     </button>
-    <!--tạo slide chuyển-->
-    <div class="slider">
-      <div class="list">
-        <div class="item">
-          <img src="/imgs/1.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/2.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/3.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/4.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/15.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/7.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/8.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/11.jpg" />
-        </div>
-        <div class="item">
-          <img src="/imgs/13.jpg" />
-        </div>
-      </div>
-      <!--button prev và next-->
-      <div class="buttons">
-        <button id="prev"></button>
-        <button id="next">></button>
-      </div>
-      <!--dots-->
-      <ul class="dots">
-        <li class="active"></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <!--tao phan tin tuc-->
-    <div class="news">
+
+    <div class="intro">
+      <div class="title">GIỚI THIỆU CHUNG</div>
+      <p>
+        Được thành lập vào năm 1990 và trở thành trường đại học công lập từ năm
+        2006, đến nay Trường Đại học Mở Thành phố Hồ Chí Minh là trường đại học
+        đa ngành trực thuộc Bộ Giáo dục và Đào tạo, có nhiệm vụ đào tạo đại học
+        và sau đại học, với các hình thức đào tạo chính quy và giáo dục thường
+        xuyên, đào tạo các điểm vệ tinh,…nhằm đáp ứng nhu cầu học tập đa dạng
+        của xã hội, góp phần tăng cường đội ngũ cán bộ khoa học-kỹ thuật cho đất
+        nước.
+      </p>
+    </div class="session">
       <div class="left">
-        <a href=""><img src="/imgs/mainews.jpg" alt="mainnews" /></a>
-        <h4>
-          <a href="">
-            Hoạt động hướng nghiệp tại trường Đại Học Mở Thành phố Hồ Chí Minh
-          </a>
-        </h4>
-        <p>
-          Gần 35 năm hình thành và phát triển, Trường Đại học Mở Thành phố Hồ
-          Chí Minh đã khẳng định vị trí của mình trong hệ thống giáo dục đại...
-        </p>
+      <div class="general">
+        <img src="/imgs/gioithieu-1.png" alt="" /></div>
+        <p class="title">Tên trường</p>
+        <div>Tiếng Việt: Trường Đại học Mở Thành Phố Hồ Chí Minh</div>
+        <div>Tiếng Anh: Ho Chi Minh City Open University</div>
+        <p class="title">Tên viết tắt của trường</p>
+        <div>Tiếng Việt: Trường Đại học Mở Tp. Hồ Chí Minh</div>
+        <div>Tiếng Anh: HCMCOU</div>
+        <p class="title">Tên trước đây</p>
+        <div>
+          Viện Đào Tạo Mở Rộng TP. Hồ Chí Minh (từ năm 1990) Đại học Mở Bán Công
+          TP. Hồ Chí Minh (từ năm 1993 đến năm 2005)
+        </div>
       </div>
-      <section class="right">
-        <div class="list-right">
-          <ul class="related-news">
-            <li>
-              <div class="related_img">
-                <a href="#"
-                  ><img src="/imgs/tbaolichthi.png" alt="lichthi"
-                /></a>
-              </div>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-          </ul>
+
+
+      <div class="right">
+        <div class="general"></div>
+          <img src="/imgs/gioithieu-1.png" alt="" /></div>
+          <p class="title">Tên trường</p>
+          <div>Tiếng Việt: Trường Đại học Mở Thành Phố Hồ Chí Minh</div>
+          <div>Tiếng Anh: Ho Chi Minh City Open University</div>
+          <p class="title">Tên viết tắt của trường</p>
+          <div>Tiếng Việt: Trường Đại học Mở Tp. Hồ Chí Minh</div>
+          <div>Tiếng Anh: HCMCOU</div>
+          <p class="title">Tên trước đây</p>
+          <div>
+            Viện Đào Tạo Mở Rộng TP. Hồ Chí Minh (từ năm 1990) Đại học Mở Bán Công
+            TP. Hồ Chí Minh (từ năm 1993 đến năm 2005)
+          </div>
         </div>
-        <div class="list-right">
-          <ul class="related-news">
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-            <li>
-              <a href="#"><img src="/imgs/tbaolichthi.png" alt="lichthi" /></a>
-              <h4>
-                <a href="#">
-                  Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính
-                  quy
-                </a>
-              </h4>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
-    <div class="filtered-news">
-      <h2>TIN TỨC CHỌN LỌC TỪ KHÓA VÀ CÁC TRUNG TÂM</h2>
-      <div>
-        <ul class="news-list">
-          <li>
-            <a href="#"><img src="/imgs/tin4.jpg" alt="lichthi" /></a>
-            <h4>
-              <a href="#">
-                Trường Đại học Mở TP.HCM sinh hoạt đầu khoá Tân sinh viên cao
-                học đợt 1 năm 2024
-              </a>
-            </h4>
-          </li>
-          <li>
-            <a href="#"><img src="/imgs/tin4.jpg" alt="lichthi" /></a>
-            <h4>
-              <a href="#">
-                Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính quy
-              </a>
-            </h4>
-          </li>
-          <li>
-            <a href="#"><img src="/imgs/tin4.jpg" alt="lichthi" /></a>
-            <h4>
-              <a href="#">
-                Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính quy
-              </a>
-            </h4>
-          </li>
-          <li>
-            <a href="#"><img src="/imgs/tin4.jpg" alt="lichthi" /></a>
-            <h4>
-              <a href="#">
-                Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính quy
-              </a>
-            </h4>
-          </li>
-          <li>
-            <a href="#"><img src="/imgs/tin4.jpg" alt="lichthi" /></a>
-            <h4>
-              <a href="#">
-                Thông báo lịch thi học kì 3 năm học 2023-2024 đại học chính quy
-              </a>
-            </h4>
-          </li>
-        </ul>
       </div>
     </div>
-    <script src="/script.js"></script>
+
+    
+
+      
+    <script src="/script2.js"></script>
   </body>
   <!--tao footer cho trang web-->
   <footer>
