@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+.flex{
+  display: flex;
+}
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   color: #444444;

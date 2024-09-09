@@ -207,7 +207,7 @@ footer {
   padding-right: 40px;
 }
 .news-list > li > a > img {
-  width: 100%;
+  width: 100% !important;
 }
 .news-list > li {
   width: 25%;
