@@ -41,6 +41,31 @@ header .menu2 {
   font-weight: bold;
   padding: 0 20px;
 }
+/*serch*/
+#search_container{
+  position: relative;
+}
+#search_icon{
+  cursor: pointer;
+  color: white;
+}
+
+#search_form{
+  width: 200px;
+  position: absolute;
+  right: 20px ;
+  display: none;
+}
+
+#search_form input#keyword{
+  padding: 6px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 0 2px 4px rgb(0, 0, 0,0.1);
+
+}
+
 /*menu con cua menu2*/
 header .menu2 > li {
   position: relative;
@@ -66,6 +91,7 @@ header .menu2 > li {
 
 .dropdown > li:hover {
   background: rgb(2, 2, 159);
+  transition: 0.3s ease;
 }
 .menu2 > li > ul {
   display: none;
@@ -86,6 +112,7 @@ header .menu2 > li {
   background-color:orange;
   border-radius: 4px;
   cursor: pointer;
+  z-index: 3;
 }
 
 .gotopbtn:hover{
@@ -106,12 +133,12 @@ a {
 }
 .left {
   width: 40%;
-  padding-left: 60px;
+  padding-left: 6px !important;
 }
 
 .right {
   width: 60%;
-  padding-right: 60px;
+  padding: 6px !important;
 }
 
 .related-news {
@@ -206,18 +233,20 @@ footer {
   padding-left: 40px;
   padding-right: 40px;
 }
-.news-list > li > a > img {
-  width: 100%;
-}
+
 .news-list > li {
   width: 25%;
   padding: 0px 5px;
 }
 
+.news-list li a img{
+  width: 100%   ;
+}
+
 /*slide chuyển*/
 
 .slider{
-  width: 1300px;
+  width: 1250px;
   max-width: 100vm;
   height: 600px;
   margin: auto;
@@ -225,6 +254,7 @@ footer {
   overflow: hidden;
   justify-content: center;
   z-index: 1;
+  margin: auto;
 }
 
 .list{
@@ -257,11 +287,12 @@ footer {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #fff5;
+  background-color: lightgrey;
   color: #fff;
   border: none;
   font-family: monospace;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .dots{
