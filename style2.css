@@ -1,0 +1,217 @@
+/*chinh web ko còn khoảng trắng*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > img {
+  width: 100%;
+}
+#bgcolor {
+  background: linear-gradient(blue, lightblue);
+}
+
+.menu1 > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.menu1 {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  align-items: center;
+}
+header .menu2 > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+header .menu2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+  padding: 0 20px;
+}
+/*menu con cua menu2*/
+header .menu2 > li {
+  position: relative;
+}
+.dropdown {
+  position: absolute;
+  list-style: none;
+  width: 250px;
+  background-color: rgb(66, 80, 232);
+  padding: 0;
+}
+.dropdown > li > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+.dropdown > li {
+  padding: 10px;
+  border-bottom: 1px black solid;
+}
+
+.dropdown > li:hover {
+  background: rgb(2, 2, 159);
+}
+.menu2 > li > ul {
+  display: none;
+}
+.menu2 > li:hover > ul {
+  display: block;
+}
+/*nút quay lại đầu trang*/
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  right: 20px;
+  font-size: 40px;
+  color: darkblue;
+}
+
+.news {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+}
+.left {
+  width: 40%;
+  padding-left: 60px;
+}
+
+.right {
+  width: 60%;
+  padding-right: 60px;
+}
+
+.related-news {
+  list-style-type: none;
+  display: flex;
+}
+
+.related-news li image {
+  width: 100%;
+  max-with: pixcel;
+  height: auto;
+}
+
+.news img {
+  width: 100%;
+  max-with: pixcel;
+  height: auto;
+}
+.news {
+  display: flex;
+}
+
+.related_img {
+  width: 25%;
+}
+.related_img {
+  width: 100%;
+}
+/*footer*/
+footer {
+  float: left;
+  width: 100%;
+  background-color: #1d559d;
+}
+.row {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.boxcenter2 {
+  width: 50%;
+  /*can giua*/
+  margin: 0 auto;
+}
+
+.boxfooter1 {
+  width: 20%;
+  float: left;
+}
+.boxfooter2 {
+  width: 40%;
+  float: left;
+}
+.boxfooter3 {
+  width: 40%;
+  float: left;
+}
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+/*mau sai chung*/
+.colorc {
+  color: white;
+}
+.mrb10 {
+  margin-bottom: 10px;
+}
+.log {
+  padding: 0;
+  display: flex;
+}
+.log > li {
+  list-style-type: none;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.filtered-news {
+  background: rgb(234, 232, 232);
+}
+
+.filtered-news h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.news-list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.news-list > li > a > img {
+  width: 80%;
+}
+.news-list > li {
+}
+
+.text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description {
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
