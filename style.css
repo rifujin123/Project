@@ -44,6 +44,7 @@ header .menu2 {
 /*menu con cua menu2*/
 header .menu2 > li {
   position: relative;
+  z-index: 2;
 }
 .dropdown {
   position: absolute;
@@ -60,6 +61,7 @@ header .menu2 > li {
 .dropdown > li {
   padding: 10px;
   border-bottom: 1px black solid;
+
 }
 
 .dropdown > li:hover {
@@ -222,6 +224,7 @@ footer {
   position: relative;
   overflow: hidden;
   justify-content: center;
+  z-index: 1;
 }
 
 .list{
