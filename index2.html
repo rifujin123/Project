@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-    <script src="/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -118,13 +118,16 @@
     </div>
 
     <!--tạo go to top button-->
-    <a class="gotopbtn" href="#"><i class="fa-regular fa-circle-up"></i></a>
+    <button id="gotopbtn">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
     <!--thong tin ban tin-->
-    <h3 style="text-decoration: underline red">Tin tức</h3>
-    <h2>Hoạt động hướng nghiệp tại Trường Đại học Mở Thành phố Hồ Chí Minh</h2>
+    <h1 class="tintuc">Tin Tức</h1>
+    <h2 class="hoatdong">Hoạt động hướng nghiệp tại Trường Đại học Mở Thành phố Hồ Chí Minh</h2>
 
     <div class="text">
-      Gần 35 năm hình thành và phát triển, Trường Đại học Mở Thành phố Hồ Chí
+     <p>
+       Gần 35 năm hình thành và phát triển, Trường Đại học Mở Thành phố Hồ Chí
       Minh đã khẳng định vị trí của mình trong hệ thống giáo dục đại học Việt
       Nam là một trường đa ngành, đào tạo đa cấp bậc, với sứ mệnh thực hiện giáo
       dục mở, tạo bình đẳng cho mọi người trong giáo dục đại học, góp phần xây
@@ -133,33 +136,33 @@
       tạo tin cậy, cung ứng cho nhu cầu xã hội hàng chục nghìn kỹ sư, cử nhân,
       thạc sĩ và tiến sĩ, đáp ứng nguồn nhân lực chất lượng cao cho sự phát
       triển đất nước.
-    </div>
-    <div class="text">
-      Hằng năm, Trường tiếp nhận một lượng lớn sinh viên tham gia vào các bậc
+      </p>
+      <p>
+        Hằng năm, Trường tiếp nhận một lượng lớn sinh viên tham gia vào các bậc
       học khác nhau. Bên cạnh việc đảm bảo chất lượng giảng dạy và học tập,
       Trường luôn đặt trọng tâm vào công tác hướng nghiệp và tư vấn việc làm,
       việc này được thực hiện thông qua việc mở rộng mạng lưới hợp tác với các
       doanh nghiệp và nhà tuyển dụng, với hơn 600 thỏa thuận hợp tác với các đối
       tác trong và ngoài nước là cơ sở quan trọng để Trường triển khai hiệu quả
       mô hình đào tạo theo định hướng ứng dụng mà Trường đang theo đuổi.
-    </div>
-    <div class="text">
-      Đa dạng hoạt động, sự kiện nhằm lan tỏa tốt nhất sự tham dự của đông đảo
+      </p>
+      <p>
+        Đa dạng hoạt động, sự kiện nhằm lan tỏa tốt nhất sự tham dự của đông đảo
       người học trong quá trình tương tác với doanh nghiệp giúp họ bổ sung kiến
       thức thực tiễn, hiểu sâu hơn về ngành học, rèn luyện kỹ năng và chuẩn bị
       sẵn sàng cho con đường nghề nghiệp sau khi tốt nghiệp. Nhờ đó, sinh viên
       có thể tự tin hội nhập vào thị trường lao động, đảm bảo hội nhập hiệu quả
       vào thị trường lao động ngày càng cạnh tranh.
+      </p>
     </div>
-    <h3>Định hướng nghề nghiệp</h3>
+    <h3 class="hoatdong">Định hướng nghề nghiệp</h3>
     <div class="text">
-      Trường tổ chức nhiều hoạt động hướng nghiệp: hội thảo, tọa đàm, sinh hoạt
+      <p>Trường tổ chức nhiều hoạt động hướng nghiệp: hội thảo, tọa đàm, sinh hoạt
       đầu khoá,… dành cho người học ngay từ năm thứ nhất, giúp họ xác định được
       mục tiêu nghề nghiệp, chọn ngành học phù hợp, và trang bị đầy đủ kiến
       thức, kỹ năng cần thiết cho công việc trong tương lai.
-    </div>
-    <div class="text">
-      Nhà trường luôn chú trọng việc hướng nghiệp cho người học thông qua các
+      </p>
+      <p>Nhà trường luôn chú trọng việc hướng nghiệp cho người học thông qua các
       hoạt động mà họ tham gia. Trường thường xuyên tổ chức và khuyến khích
       người học tham gia vào các hoạt động xã hội và phục vụ cộng đồng nhằm giúp
       họ phát triển kỹ năng mềm, kết nối, và trải nghiệm thực tế trong các lĩnh
@@ -167,9 +170,10 @@
       nguyện không chỉ giúp người học khám phá sở thích cá nhân mà còn xây dựng
       những kỹ năng quan trọng và tạo dựng các mối quan hệ hữu ích cho tương lai
       nghề nghiệp.
+      </p>
     </div>
     <div class="text">
-      Thời gian tổ chức (dự kiến):
+      <p><b>Thời gian tổ chức (dự kiến):</b></p>
       <ul>
         <li>
           Chương trình huấn luyện kỹ năng hội nhập doanh nghiệp dành cho thực
@@ -179,44 +183,46 @@
         <li>Chuyên đề Career-Talk, Leader-Talk (được tổ chức hàng tháng)</li>
       </ul>
     </div>
-    <div style="background-color: aliceblue">
+    <div class=" im">
       <img src="/imgs/chuyen_gia_tam_li.jpg" alt="" />
       <div class="description">
         Các chuyên gia từ nhiều lĩnh vực nhân sự, tâm lý học, hướng nghiệp cùng
         giao lưu và hỗ trợ sinh viên giải đáp các thắc mắc
       </div>
     </div>
-    <h3>Các ngày hội nghề nghiệp, hội chợ việc làm</h3>
+    <h3 class="hoatdong">Các ngày hội nghề nghiệp, hội chợ việc làm</h3>
     <div class="text">
-      Đây là các sự kiện thường niên của Trường, với hàng nghìn vị trí việc làm
+      <p>Đây là các sự kiện thường niên của Trường, với hàng nghìn vị trí việc làm
       được cung cấp mỗi năm trong nhiều lĩnh vực khác nhau, tạo cơ hội cho người
       học tiếp cận và trao đổi thông tin về các cơ hội nghề nghiệp, giúp người
       học xác định những vị trí công việc phù hợp với ngành học của mình và hiểu
       rõ yêu cầu của doanh nghiệp đối với từng vị trí. Đồng thời, đây cũng là
       cầu nối thúc đẩy mối quan hệ hợp tác lâu dài giữa Nhà trường và doanh
       nghiệp.
+      </p>
     </div>
-    <div style="background-color: aliceblue">
+    <div class="im">
       <img src="/imgs/sinh_vien_tham_du.jpg" alt="" />
       <div class="description">Sinh viên tham dự ngày hội việc làm</div>
     </div>
     <div class="text">
-      Trong 15 năm trở lại đây, Trường đã tổ chức 23 ngày hội nghề nghiệp, ngày
+      <p>Trong 15 năm trở lại đây, Trường đã tổ chức 23 ngày hội nghề nghiệp, ngày
       hội việc làm và nhận được sự hỗ trợ từ hơn 700 doanh nghiệp. Gần nhất,
       ngày hội việc làm năm 2023 với hơn 1.000 vị trí tuyển dụng từ 25 doanh
       nghiệp tuyển trực tiếp và 70 doanh nghiệp tuyển trực tuyến. Các hoạt động
       kết nối giữa Nhà trường – Người học – Nhà tuyển dụng đa dạng sự kiện kết
       nối đã cung cấp nhiều thông tin thiết thực và kỹ năng cho người học. Nhờ
       đó, tỷ lệ sinh viên có việc làm trong năm học gần đây đạt 93,66%..
+      </p>
     </div>
     <div class="text">
-      Thời gian tổ chức (dự kiến):
+      <p><b>Thời gian tổ chức (dự kiến):</b></p>
       <ul>
         <li>Ngày hội việc làm bán thời gian (Tháng 12/2024)</li>
         <li>Ngày hội việc làm Nhật Bản (Tháng 11/2024)</li>
         <li>Ngày hội nghề nghiệp (Tháng 7/2025)</li>
       </ul>
-      <div style="background-color: aliceblue">
+      <div class="im">
         <img src="/imgs/dai_dien_doanh_nghiep.jpg" alt="" />
         <div class="description">
           Đại diện các doanh nghiệp Nhật Bản đến tham gia giao lưu cùng sinh
@@ -224,15 +230,14 @@
         </div>
       </div>
     </div>
-    <h3>Tháng cao điểm thông tin tuyển dụng trực tuyến:</h3>
+    <h3 class="hoatdong">Tháng cao điểm thông tin tuyển dụng trực tuyến:</h3>
     <div class="text">
-      Chương trình “Tháng Cao Điểm Thông Tin Tuyển Dụng Trực Tuyến” được tổ chức
+      <p>Chương trình “Tháng Cao Điểm Thông Tin Tuyển Dụng Trực Tuyến” được tổ chức
       nhằm đón đầu các mùa tuyển dụng của các doanh nghiệp, kết nối sớm và mang
       đến cơ hội việc làm bán thời gian, thực tập và toàn thời gian cho người
       học đang tìm kiếm việc làm.
-    </div>
-    <div class="text">
-      Thời gian tổ chức (dự kiến):
+      </p>
+      <p><b>Thời gian tổ chức (dự kiến):</b></p>
       <ul>
         <li>Mùa việc làm Thu Đông (Tháng 8,9,10/2024)</li>
         <li>Tuyển dụng Thực tập sinh – Internship Month (Tháng 8,9/2024)</li>
@@ -240,33 +245,32 @@
         <li>Mùa việc làm Xuân Hè (Tháng 3,4,5/2025)</li>
       </ul>
     </div>
-    <h3>Cổng thông tin việc làm</h3>
-    <div style="background-color: aliceblue"></div>
+    <h3 class="hoatdong">Cổng thông tin việc làm</h3>
+    <div class="im">
         <img src="/imgs/carrerviet.png" alt="" />
         <div class="description">
             Ngày 22 tháng 03 năm 2024, Cổng thông tin việc làm Trường Đại học Mở TP.HCM đạt mốc 10.000 lượt Doanh nghiệp sử dụng
         </div>
       </div>
-    <div class="text">Cổng thông tin việc làm của Trường Đại học Mở Thành phố Hồ Chí Minh, thuộc Trung tâm Hướng nghiệp – Tư vấn việc làm, được thiết kế để giúp nhà tuyển dụng và người học kết nối một cách nhanh chóng và hiệu quả. Cổng thông tin cung cấp nhiều tiện ích, bao gồm: tạo hồ sơ ứng viên trực tuyến, tải lên CV cá nhân, và tiếp cận, ứng tuyển hàng trăm vị trí việc làm.    </div>
-    <div style="background-color: aliceblue"></div>
+    <div class="text"><p>Cổng thông tin việc làm của Trường Đại học Mở Thành phố Hồ Chí Minh, thuộc Trung tâm Hướng nghiệp – Tư vấn việc làm, được thiết kế để giúp nhà tuyển dụng và người học kết nối một cách nhanh chóng và hiệu quả. Cổng thông tin cung cấp nhiều tiện ích, bao gồm: tạo hồ sơ ứng viên trực tuyến, tải lên CV cá nhân, và tiếp cận, ứng tuyển hàng trăm vị trí việc làm.</p>    </div>
+    <div class="im">
         <img src="/imgs/thong_tin_vieclam.png" alt="" />
         <div class="description">
             Thông tin chương trình được cập nhật thường xuyên tại fanpage Cổng thông tin việc làm Trường Đại học Mở TP.HCM
 
         </div>
       </div>
-    <h3>Thông tin liên hệ</h3>
-    <div class="text">Trung tâm hướng nghiệp – Tư vấn việc làm Trường Đại học Mở Thành phố Hồ Chí Minh</div>
-    <div class="text">Fanpage: <a href="https://www.facebook.com/CongthongtinvieclamOU">https://www.facebook.com/CongthongtinvieclamOU</a>  </div>
+    <h3 class="hoatdong">Thông tin liên hệ</h3>
+    <div class="text">
+      <p>Trung tâm hướng nghiệp – Tư vấn việc làm Trường Đại học Mở Thành phố Hồ Chí Minh</p>
+      <p>Fanpage: <a href="https://www.facebook.com/CongthongtinvieclamOU">https://www.facebook.com/CongthongtinvieclamOU</a></p>
+      <p>Website: <a href="https://vieclam.ou.edu.vn">https://vieclam.ou.edu.vn</a></p>
+      <p>Địa Chỉ : Phòng 011, số 97 Võ Văn Tần, Phường 6, Quận 3, Tp.HCM</p>
+      <p>Điện Thoại : 02839300952</p>
+      <p>Email : huongnghiepvieclam@ou.edu.vn</p>
+    </div>
 
-    <div class="text">Website: <a href="https://vieclam.ou.edu.vn">https://vieclam.ou.edu.vn</a></div>
-
-    <div class="text">Địa Chỉ : Phòng 011, số 97 Võ Văn Tần, Phường 6, Quận 3, Tp.HCM</div>
-    <div class="text">Điện Thoại : 02839300952</div>
-
-    <div class="text">Email : huongnghiepvieclam@ou.edu.vn</div>
-
-
+    <script src="/script2.js"></script>
   </body>
   <!--tao footer cho trang web-->
   <footer>
